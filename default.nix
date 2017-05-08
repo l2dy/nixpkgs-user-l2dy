@@ -7,6 +7,7 @@ let
   
   self = {
     # hello = callPackage ./pkgs/applications/misc/hello { };
+    neomutt = callPackage ./pkgs/applications/networking/mailreaders/neomutt { };
   };
 in
 self
